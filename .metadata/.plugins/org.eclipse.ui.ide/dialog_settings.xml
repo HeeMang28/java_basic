@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\22tka\OneDrive\바탕 화면\자바\STUDY.zip"/>
+			<item value="C:\Users\22tka\OneDrive\바탕 화면\자바\20220104.zip"/>
+			<item value="C:\Users\22tka\OneDrive\바탕 화면\자바\20220103.zip"/>
+			<item value="C:\Users\22tka\OneDrive\바탕 화면\자바\20211231.zip"/>
+			<item value="C:\Users\22tka\OneDrive\바탕 화면\자바\20211230.zip"/>
+			<item value="C:\Users\22tka\OneDrive\바탕 화면\자바\20211229.zip"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+		</list>
+	</section>
+</section>

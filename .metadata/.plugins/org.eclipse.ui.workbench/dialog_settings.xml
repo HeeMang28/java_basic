@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\22tka\OneDrive\바탕 화면\자바\20220121.zip"/>
+			<item value="C:\Users\22tka\OneDrive\바탕 화면\자바\20220119.zip"/>
+			<item value="C:\Users\22tka\OneDrive\바탕 화면\자바\20220117.zip"/>
+			<item value="C:\Users\22tka\OneDrive\바탕 화면\자바\20220114.zip"/>
+			<item value="C:\Users\22tka\OneDrive\바탕 화면\자바\20220112.zip"/>
+			<item value="C:\Users\22tka\OneDrive\바탕 화면\자바\20220113.zip"/>
+			<item value="C:\Users\22tka\OneDrive\바탕 화면\자바\20220111.zip"/>
+			<item value="C:\Users\22tka\OneDrive\바탕 화면\자바\20220110.zip"/>
+			<item value="C:\Users\22tka\OneDrive\바탕 화면\자바\20220107.zip"/>
+			<item value="C:\Users\22tka\OneDrive\바탕 화면\자바\20220106.zip"/>
+			<item value="C:\Users\22tka\OneDrive\바탕 화면\자바\20220105.zip"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+</section>

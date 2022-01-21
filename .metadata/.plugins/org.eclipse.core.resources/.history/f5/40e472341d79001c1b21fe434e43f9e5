@@ -1,0 +1,14 @@
+package superkeyword;
+
+public class Main02 {
+
+	public static void main(String[] args) {
+		SupersonicAirplane sa = new SupersonicAirplane(500);
+		
+		sa.fly();
+		sa.fly();
+		
+
+	}
+
+}
