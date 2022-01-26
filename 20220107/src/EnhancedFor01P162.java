@@ -17,6 +17,7 @@ public class EnhancedFor01P162 {
 		
 	   for(int abcd : arr1) {//arr1의 들어있는 자원만큼 돌아감
 		   System.out.println(abcd);
+		   
 	   }
 	}
 
