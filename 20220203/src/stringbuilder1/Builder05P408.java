@@ -8,8 +8,14 @@ public class Builder05P408 {
 
 		StringBuilder a = new StringBuilder("abcdefghijklmnopqrstuvwxyz");
 		
-		for(int i = 0; i < a.charAt(i); ++i) {
-					a.deleteCharAt(i);
+		for(int i = 0; i < a.length(); i++) {
+			System.out.println("i % 3의 결과 : " + i % 3);
+			System.out.println("현재 i의 값 : " + i);
+			System.out.println(a);
+			System.out.println("------------------");
+			if(i % 3 == 0) {
+			a.deleteCharAt(i);
+					}
 
 		   }
 		}
