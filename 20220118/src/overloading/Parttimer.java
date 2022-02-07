@@ -14,25 +14,22 @@ public class Parttimer {
 	// afternoon, pay, shopName, name을 모두 받아 저장해주는 생성자를 만들어주세요.
 	// 접근 제한자는 public 입니다.
 	
-	public Parttimer(boolean a, int p, String sN, String n) {
-		// 시급이 9160원 미만이라면 강제로 9160을 집어넣고
-		// 아니면 입력받은 금액을 그대로 입력하도록 수정해보세요.
-		afternoon = a;
+	public Parttimer(boolean a, int p, String s, String n) {
 		if(p < 9160) {
-			pay = 9160;
-		} else { pay = p;
+			p = 9160;
+		} else {
+			pay = p;
 		}
-		
-		shopName = sN;
+		afternoon = a;
+		shopName = s;
 		name = n;
-		// 전달 데이터 확인
 		System.out.println("알바가 생성되었습니다.");
 		System.out.println("오후알바 : " + afternoon);
 		System.out.println("시급 : " + pay);
 		System.out.println("가게명 : " + shopName);
 		System.out.println("이름 : " + name);
-
 	}
+	
 	
 	// 오버로딩은 이름은 같은데 파라미터값의 종류나 개수가 다르면 중복 작성을 허용합니다.
 	// afternoon, shopName, name만 입력받는 생성자를 하나 더 중복작성 해주세요.
