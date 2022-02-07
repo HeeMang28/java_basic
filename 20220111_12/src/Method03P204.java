@@ -10,6 +10,7 @@ public class Method03P204 {
 	public static void main(String[] args) {
 		plus(3, 5);
 
+		
 	}
 
 }

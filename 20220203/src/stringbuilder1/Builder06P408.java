@@ -3,7 +3,7 @@ package stringbuilder1;
 public class Builder06P408 {
 
 	public static void main(String[] args) {
-		// 
+		// 앞에서부터 빼면 이상하게 빼지기 때문에 뒤에서 부터 뺌.
 		
 		StringBuilder a = new StringBuilder("abcdefghijklnmopqrstuvwxyz");
 		System.out.println(a);
