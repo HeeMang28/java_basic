@@ -31,18 +31,14 @@ public class Lotto03 {
 			
 			while(first.size() != 6) {
 				getNum2 = (int)(Math.random() * 45) +1;
-				
+		
 				if(!first.contains(getNum2)) {
 					first.add(getNum2);
 				}
-				if(lotto == first) {
-					return;
-				}
-				System.out.println("" + lotto + first);
-				count += 1;
-			
-		}
-
+}
+			Collections.sort(first);
+			System.out.println("" + lotto + first);
+			count += 1;
 		
 	
 
