@@ -7,7 +7,6 @@ public class Main {
 		Magician m1 = new Magician("봉희야");
 		m1.hunt();
 		m1.hunt();
-		
 
 	}
 
