@@ -12,7 +12,7 @@ public class Person {
 		this.age = age;
 		this.money = money;
 		this.major = major;
-		// this 키워드는 대며앗라고 생각하면 됩니다. 
+		// this 키워드는 대명사라고 생각하면 됩니다. 
 		// this는 자기 자신 객체를 지정할때 사용하는 키워드입니다.
 		// this.를 사용하면 동일 클래스 내의 멤버(멤버변수, 메서드)를 참조 할 수 있습니다.
 		// this()를 사용하면 생성자 내부에서 자신의 다른 생성자를 호출할 수도 있습니다.
