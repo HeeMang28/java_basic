@@ -9,7 +9,8 @@ public class Main01 {
 		sa1.fly();
 		sa1.fly();
 		sa1.fly();
-
+		sa1.fly();
+		
 	}
 
 }

@@ -9,12 +9,12 @@ public class Airplane {
 		
 	}
 	public void fly() {
-		if((this.speed + 300 > 900)) {
+		if(this.speed + 300 > 900) {
 			this.speed = 900;
 		} else {
 			this.speed += 300;
 		}
-		System.out.println("현재 비행기의 속도는 : " + speed + "입니다.");
+		System.out.println("현재 비행기의 속도 : " + speed + "입니다.");
 	}
 	public void breakspeed() {
 		if((this.speed - 100) < 0) {
@@ -22,6 +22,8 @@ public class Airplane {
 		} else {
 			this.speed -= 100;
 		}
+		System.out.println("감속 결과 : " + speed);
 	}
-
 }
+
+	

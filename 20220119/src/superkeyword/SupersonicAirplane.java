@@ -7,12 +7,12 @@ public class SupersonicAirplane extends Airplane {
 	// 모두 처리해줘야 합니다.
 	// 부모 생성자는 자식쪽에서 호출할때는
 	// 이름이 무조건 super(); 로 고정입니다.
-	// 자식 생성자 내에서 부모 생성사 호출이 1순위로 이뤄져야 합니다.
+	// 자식 생성자 내에서 부모 생성자 호출이 1순위로 이뤄져야 합니다.
 	
 	public SupersonicAirplane(int speed) {
 		super(speed);
-		System.out.println("현재 초음속 비행기 속도 : " + speed);
-		// TODO Auto-generated constructor stub
+
+
 	}
 
 	// 초음속비행기도 일반 비행기처럼 속도값만 가집니다.
@@ -32,8 +32,8 @@ public class SupersonicAirplane extends Airplane {
 			 speed += 500; // 속도 + 500이 최대속도인 1300을 넘기지 않으면 500을 다 더해줌
 		} else {
 			speed = 1300; // 속도 + 500이 최대속도인 1300을 넘기면 1300으로 강제로 고정
-		}
-	} System.out.println("초음속 비행중입니다 : " + speed + "km/h");
+		}System.out.println("초음속 비행중입니다 : " + speed + "km/h");
+	} 
 	}	
 }
 
